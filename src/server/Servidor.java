@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package chatbysockets;
+package server;
 
 /**
  *
  * @author moscu
  */
 public class Servidor {
+    public static void main(String[]args){
+        jfServer frameServidor= new jfServer();
+        frameServidor.setVisible(true);
+    }
     
 }
